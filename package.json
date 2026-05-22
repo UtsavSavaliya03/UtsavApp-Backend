@@ -1,0 +1,26 @@
+{
+  "name": "utsav-app-backend",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "utsav",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google/genai": "^1.50.1",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "http": "^0.0.1-security",
+    "mongoose": "^9.4.1",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.14",
+    "openai": "^6.37.0",
+    "package": "^1.0.1",
+    "uuid": "^13.0.0"
+  }
+}
