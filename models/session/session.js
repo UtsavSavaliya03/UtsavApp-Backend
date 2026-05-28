@@ -3,6 +3,8 @@ const mongoose = require("mongoose");
 const sessionSchema = new mongoose.Schema({
   sessionId: String,
 
+  selectedJobRole: String,
+  selectedJobRoleId: String,
   timeOnStep: Number,
   backspaceCount: Number,
   idleSeconds: Number,
@@ -14,7 +16,8 @@ const sessionSchema = new mongoose.Schema({
   cursorHesitations: Number,
   rapidClicks: Number,
   sessionDuration: Number,
-  
+
+  score: Number,
   triggerTime: Number,
   usedAIModel: String,
   supportMode: String,
